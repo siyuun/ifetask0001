@@ -1,0 +1,29 @@
+body{
+	font-family:Verdana,Geneva,Arial,sans-serif;
+	font-size:small;
+}
+table{
+	text-align:center;
+	margin-left:20px;
+	margin-right:20px;
+	border:thin solid black;
+	/*border-collapse:collapse;这种方法会让表格上的实线被遮挡*/border-spacing:0px;
+	caption-side:bottom;
+}
+th{
+	background-color:gray;
+}
+tr:nth-child(2n+1){
+	background-color:#fcba7a;
+}
+th,td{
+	border:thin dotted gray;
+	padding:5px;
+}
+caption{
+	font-family:italic;
+	padding-top:8px;
+}
+li{
+	list-style-type:circle;
+}
