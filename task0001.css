@@ -4,4 +4,4 @@ h2{font-size:14px;}
 p{color:yellow;font-size:12px;background-color:black;
 text-indent:160px;text-transform:uppercase;text-decoration:underline;}
 ul{text-transform:capitalize;}
-image{border:2px solid red;width:500px;}
+image{border:2px solid red;max-width:100%;}
